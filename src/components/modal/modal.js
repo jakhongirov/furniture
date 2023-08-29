@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Content from "../../Localization/Content";
-import { useDispatch, useSelector } from "react-redux";
-import { useAlert } from "react-alert";
+import { useSelector } from "react-redux";
+// import { useAlert } from "react-alert";
 
 //Images
 import Logo from "../../assets/images/logo.png";
@@ -57,7 +57,7 @@ function Modal({ elModal }) {
       <div
         className="modal"
         ref={elModal}
-        // onClick={() => (elModal.current.style.display = "none")}
+      // onClick={() => (elModal.current.style.display = "none")}
       >
         <div className="modal__left-box">
           <div className="modal__logo__box">

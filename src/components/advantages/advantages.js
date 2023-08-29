@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import Content from "../../Localization/Content";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 //Images
 import img1 from  "../../assets/images/advantages1.png";
@@ -15,7 +15,7 @@ import img7 from  "../../assets/images/advantages7.png";
 import img8 from  "../../assets/images/advantages8.png";
 
 function Advantages() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
   const {
     count: { lang },
