@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useAlert } from "react-alert";
 
 //Images
-import Logo from "../../assets/images/MAXLOFT.svg";
+import Logo from "../../assets/images/logo.png";
 import instagram from "../../assets/images/Instagram.svg";
 
 function Modal({ elModal }) {

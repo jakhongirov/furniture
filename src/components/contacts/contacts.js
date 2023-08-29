@@ -33,8 +33,6 @@ function Contacts() {
     }
   }, []);
 
-  console.log(width);
-
   const {
     count: { lang },
   } = useSelector((state) => state);
